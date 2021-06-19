@@ -1,67 +1,106 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Yesol`s portfolio</title>
-    <meta name='author' content='Yesol'>
-    <meta name="description" content="portfolio for begginer software Engineer Yesol">
-    <script src="https://kit.fontawesome.com/20c5a1496b.js" crossorigin="anonymous"></script>
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap" rel="stylesheet">
-<link rel="icon" type="image/png" href="imgs/favicon.png">
-<link rel="stylesheet" href="style.css">
-<script src="main.js" defer></script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Yesol`s portfolio</title>
+        <meta name='author' content='Yesol'>
+        <meta
+            name="description"
+            content="portfolio for begginer software Engineer Yesol">
+        <script src="https://kit.fontawesome.com/20c5a1496b.js" crossorigin="anonymous"></script>
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link
+            href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&display=swap"
+            rel="stylesheet">
+        <link rel="icon" type="image/png" href="imgs/favicon.png">
+        <link rel="stylesheet" href="style.css">
+        <script src="main.js" defer="defer"></script>
 
-</head>
-<body>
-<!-- navbar -->
-    <nav id="navbar">
-        <div class="navbar_logo">
-            <i class="fas fa-apple-alt"></i>
-            <a href="#">Yesol</a>
-        </div>
-        <div class="narbar_menu">
-<ul>
-    <li class="navbar_menu_items">Home</li>
-    <li class="navbar_menu_items">About</li>
-    <li class="navbar_menu_items">Skills</li>
-    <li class="navbar_menu_items">My work</li>
-    <li class="navbar_menu_items">testimonials</li>
-    <li class="navbar_menu_items">Contact</li>
-</ul>
+    </head>
+    <body>
+        <!-- navbar -->
+        <nav id="navbar">
+            <div class="navbar_logo">
+                <i class="fas fa-apple-alt"></i>
+                <a href="#">Yesol</a>
+            </div>
+            <div class="narbar_menu">
+                <ul>
+                    <li class="navbar_menu_items">Home</li>
+                    <li class="navbar_menu_items">About</li>
+                    <li class="navbar_menu_items">Skills</li>
+                    <li class="navbar_menu_items">My work</li>
+                    <li class="navbar_menu_items">testimonials</li>
+                    <li class="navbar_menu_items">Contact</li>
+                </ul>
 
-        </div>
+            </div>
 
+        </nav>
+        <!-- home -->
+        <section id="home">
+            <img
+                src="imgs/profile.jpg"
+                alt="yesol`s_profile photo"
+                class="home_avatar"
+                width="30%"
+                height="40%">
+            <h1 class="home_title">Hello,
+                <br>I`m Beginner Coder</h1>
+            <h2 class="home_discription">A Beginner Software Engineer currently studing DDacademy in Daejeon</h2>
+            <button class="home_contact">Contact Me</button>
+        </section>
+        <!-- about -->
+        <section id="about">
+            <h1>About me</h1>
+            <p>나를 잘 어필할 문장을 3줄정도 적어두기 경력사항 넣기</p>
+            <div class="about_majors">
+                <!-- 할 수 있는 기술이 한가지밖에 없으면 세부적으로 나누기 -->
+                <div class="major">
+                    <div class="major_icon">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                    <div class="major_title">HTML</div>
+                    <div class="major_description">html markup</div>
+                </div>
+                <div class="major">
+                    <div class="major_icon">
+                        <i class="fab fa-css3-alt"></i>
+                    </div>
+                    <div class="major_title">CSS</div>
+                    <div class="major_description">css markup</div>
+                </div>
+                <div class="major">
+                    <div class="major_icon">
+                        <i class="fab fa-js-square"></i>
+                    </div>
+                    <div class="major_title">JavaScript</div>
+                    <div class="major_description">computing language</div>
+                </div>
+                <div class="about_academy">
+                    <div class="job">
+                        <img src="/imgs/dd_logo.png" alt="" class="job_logo">
+                        <p class="job_name">대덕인재개발원</p>
+                        <p class="job_period">21.04.19-21.11.29</p>
+                    </div>
+                    <div class="job">
+                        <img src="/imgs/dd_logo.png" alt="" class="job_logo">
+                        <p class="job_name">대덕인재개발원</p>
+                        <p class="job_period">21.04.19-21.11.29</p>
+                    </div>
 
-    </nav>
-    <!-- home -->
-    <section id="home">
-    <img src="imgs/profile.jpg" alt="yesol`s_profile photo" class="home_avatar" width= 30% height= 40%>
-<h1 class="home_title">Hello, <br>I`m Beginner Coder</h1>   
-<h2 class="home_discription">A Beginner Software Engineer currently studing DDacademy in Daejeon</h2>
-<button class="home_contact">Contact Me</button>
-</section>
-<!-- about -->
-    <section id="about">
-
-    </section>
-<!-- skills -->
-    <section id="skills">
-
-    </section>
-    <!-- work -->
-    <section id="work">
-
-    </section>
-<!-- testimonials -->
-    <section id="testimonials">
-
-    </section>
-    <!-- contact -->
-    <section id="contact">
-
-    </section>
-</body>
+                </div>
+            </div>
+        </section>
+        <!-- skills -->
+        <section id="skills"></section>
+        <!-- work -->
+        <section id="work"></section>
+        <!-- testimonials -->
+        <section id="testimonials"></section>
+        <!-- contact -->
+        <section id="contact"></section>
+    </body>
 </html>
