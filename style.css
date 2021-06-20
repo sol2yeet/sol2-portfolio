@@ -5,8 +5,8 @@
   --color-white: #ffffff;
   --color-light-white: #eeeeee;
   --color-dark-white: #bdbdbd;
-  --color-pink: #fe918d;
-  --color-dark-pink: #ff6863;
+  --color-pink: #d386c4;
+  --color-dark-pink: #bc56c5;
   --color-dark-grey: #4d4d4d;
   --color-grey: #616161;
   --color-light-grey: #7c7979;
@@ -32,7 +32,7 @@
 }
 
 /*Universal tag 
-공통적으로 들어가는 속성*/
+CSS에 기본적으로 들어가는 속성을 변경*/
 * {
   box-sizing: border-box;
 }
@@ -51,6 +51,13 @@ a {
 ul {
   list-style-type: none;
   padding-left: 0;
+}
+
+button {
+  background-color: transparent; /*???????*/
+  cursor: pointer;
+  border: none;
+  outline: none;
 }
 
 /* Typography 
@@ -117,4 +124,32 @@ p {
 
 .navbar_menu_item:hover {
   background-color: var(--color-dark-pink);
+}
+
+/*Home*/
+#home {
+  /*백그라운드 속성에서 url으로 배경을 주기*/
+  background: url("imgs/home-background.png") center/cover no-repeat;
+  padding: 40px;
+  text-align: center;
+}
+
+.home_avatar {
+  border-radius: 80%;
+  border: 3px solid var(--color-light pink);
+}
+
+.home_title,
+.home_discription {
+  color: var(--color-dark-pink);
+}
+
+.home_contact {
+  color: var(--color-dark-pink);
+  font-size: var(--font-regular);
+  font-weight: var(var(--weight-bold));
+  margin: 24px;
+  padding: 8px 12px;
+  border: 2px solid var(--color-dark-pink);
+  border-radius: var(--size-border-radius);
 }
